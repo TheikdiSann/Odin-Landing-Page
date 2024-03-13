@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+/* color */
+.darkblue{
+    background-color: #1f2937;
+}
+.white{
+    background-color: white;
+}
+.grey{
+    background-color: #E5E7EB;
+}
+
+/* container */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+
+/* Header */
+
+.header{
+    padding: 0;
+
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+/* Body */
+
+.body-section{
+    flex: 1;
+}
+
+
+/*Hero*/
+
+.hero{
+    height: 300px;
+}
+
+.hero-left{
+    align-self: flex-start;
+}
+
+.hero-left, .hero-right{
+    width: 550px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* image */
+.image {
+    background-image: url("pexels-joem-castillo-20065715.jpg");
+    border: none;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+/* Info */
+.info{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-title{
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.info-list{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.icon{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.card .text{
+    text-align: center;
+}
+
+/* Review */
+
+.review-card{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.review-card p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.reviewer {
+    align-self: flex-end;
+    font-size: 23px;
+}
+
+
+/* Modal */
+.modal-card{
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-color: #3882F6;
+    padding:20px 75px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.modal-card .title{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.modal-card .btn{
+   border: 1px solid white;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    color: white;
+}
